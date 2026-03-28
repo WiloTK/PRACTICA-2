@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffaaed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.caja-uno {
+    width: 80%;
+    background-image: url(https://es.pinterest.com/pin/4785143351994016/);
+    background-size: cover;
+    background-position: center;
+    margin: 20px; 
+    border: 5px solid #333; 
+    padding: 50px;
+    text-align: center;
+}
+
+.caja-uno h1 {
+    color: rgb(27, 225, 243);
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.caja-dos {
+    width: 70%;
+    background-color: #eaddff; 
+    margin: 15px;
+    border: 2px dashed #6200ee;
+    padding: 30px;
+    color: #31007a; 
+    line-height: 1.6;
+}
+
+
+.caja-tres {
+    width: 60%;
+    background-color: #6200ee;
+    margin: 10px;
+    border: 4px double #ffffff; 
+    padding: 25px;
+    border-radius: 15px; 
+    text-align: center;
+}
+
+.nombre {
+    font-size: 28px; 
+    color: #ffffff; 
+    font-weight: bold;
+}
